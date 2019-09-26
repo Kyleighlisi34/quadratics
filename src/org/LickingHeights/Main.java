@@ -14,7 +14,16 @@ public class Main {
         // todo calculations
         axisOfSysmmetry = -b/(2*a);
         discriminant = (b*b)-4*(a*c);
-        // todo print results
+        if (discriminant >0){
+            System.out.println("There are two real solutions");
+        }
+        else if(discriminant == 0){
+            System.out.println("There are one real solutions");
+        }
+        else {
+            System.out.println("There are NO real solutions");
+        }
+            // todo print results
         System.out.println("Axis of Symmetry: "+axisOfSysmmetry);
         System.out.println("Discriminant: "+discriminant);
         // todo not in code check results
