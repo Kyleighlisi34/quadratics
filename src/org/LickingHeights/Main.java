@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //todo declare variables a,b,c,discriminant,axis of symmetry,parabolaFacing,x,y
+        //todo declare variables a,b,c,discriminant,axisOfSymmetry,parabolaFacing,x,y
         double a,b,c,discriminant,axisOfSysmmetry,x,y;
         String parabolaFacing;
         //todo initialize manually
@@ -12,7 +12,8 @@ public class Main {
         b=3;
         c=1;
         // todo calculations
-
+        axisOfSysmmetry = -b/(2*a);
+        discriminant = (b*b)-4*(a*c);
         // todo print results
 
         // todo not in code check results
